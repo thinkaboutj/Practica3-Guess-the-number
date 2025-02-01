@@ -1,12 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base pplication theme. -->
-    <style... name="Theme.EjemploTour" parent="android:Theme.Material.Light.NoActionBar">
+    <!-- Base application theme. -->
+    <style name="Theme.EjemploTour" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/navyblue</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <item name="android:statusBarColor">@color/purple_700</item>
-    </style...>
+    </style>
 
-    <style name="Theme.GuesstheNumberJM" parent="Base.Theme.GuesstheNumberJM" />
+    <style name="Theme.GuesstheNumberJM" parent="Theme.AppCompat.Light.NoActionBar" />
 </resources>
